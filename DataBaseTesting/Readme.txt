@@ -1,0 +1,1 @@
+A short script to demonstrate how to acces a data base to retrieve data like Username Password etc for test cases.
