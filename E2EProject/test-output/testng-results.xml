@@ -2,26 +2,26 @@
 <testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-02-16T17:09:41 EET" name="Default suite" finished-at="2022-02-16T17:10:30 EET" duration-ms="49465">
+  <suite started-at="2022-02-21T16:44:51 EET" name="Suite" finished-at="2022-02-21T16:45:27 EET" duration-ms="36062">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@73e9cf30]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@1e097d59]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2022-02-16T17:09:41 EET" name="Default test" finished-at="2022-02-16T17:10:30 EET" duration-ms="49465">
+    <test started-at="2022-02-21T16:44:51 EET" name="Validate User Login" finished-at="2022-02-21T16:45:27 EET" duration-ms="36062">
       <class name="CucumberOptions.TestRunner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CucumberOptions.TestRunner@73e9cf30]" started-at="2022-02-16T17:09:41 EET" name="setUpClass" finished-at="2022-02-16T17:09:41 EET" duration-ms="285" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:CucumberOptions.TestRunner@1e097d59]" started-at="2022-02-21T16:44:51 EET" name="setUpClass" finished-at="2022-02-21T16:44:51 EET" duration-ms="270" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@15d0d6c9]]>
+                <![CDATA[org.testng.TestRunner@3ccb12d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@73e9cf30]" started-at="2022-02-16T17:09:41 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-16T17:10:07 EET" duration-ms="26360" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@1e097d59]" started-at="2022-02-21T16:44:51 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-21T16:45:16 EET" duration-ms="24781" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -37,25 +37,25 @@
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='query']"}
-  (Session info: chrome=98.0.4758.82)
+  (Session info: chrome=98.0.4758.102)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'DESKTOP-KV58UVC', ip: '169.254.123.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [16cf935cfa55e57a88d868fc6d91da4b, findElement {using=name, value=query}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Mihai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:5670}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:5670/devtool..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 16cf935cfa55e57a88d868fc6d91da4b]]>
+Command: [dd2b0bfeb70eb63d0b7dfa0175b416cf, findElement {using=name, value=query}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Mihai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:1073}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:1073/devtool..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dd2b0bfeb70eb63d0b7dfa0175b416cf]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='query']"}
-  (Session info: chrome=98.0.4758.82)
+  (Session info: chrome=98.0.4758.102)
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'DESKTOP-KV58UVC', ip: '169.254.123.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [16cf935cfa55e57a88d868fc6d91da4b, findElement {using=name, value=query}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Mihai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:5670}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:5670/devtool..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 16cf935cfa55e57a88d868fc6d91da4b
+Command: [dd2b0bfeb70eb63d0b7dfa0175b416cf, findElement {using=name, value=query}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Mihai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:1073}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:1073/devtool..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dd2b0bfeb70eb63d0b7dfa0175b416cf
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -72,7 +72,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at pageObjects.portalHomePage.getSearchBox(portalHomePage.java:28)
+at pageObjects.portalHomePage.getSearchBox(portalHomePage.java:25)
 at stepDefinition.stepDefinition.verify_that_user_is_successfully_logged_in(stepDefinition.java:62)
 at ✽.Verify that user is successfully logged in(file:///D:/Eclipse%20Selenium%20Udemy/E2EProject/src/test/java/features/login.feature:28)
 ]]>
@@ -81,7 +81,7 @@ at ✽.Verify that user is successfully logged in(file:///D:/Eclipse%20Selenium%
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@73e9cf30]" started-at="2022-02-16T17:10:07 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-16T17:10:30 EET" duration-ms="22744" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:CucumberOptions.TestRunner@1e097d59]" started-at="2022-02-21T16:45:17 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-02-21T16:45:25 EET" duration-ms="8230" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -94,28 +94,26 @@ at ✽.Verify that user is successfully logged in(file:///D:/Eclipse%20Selenium%
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
+          <exception class="org.openqa.selenium.WebDriverException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='query']"}
-  (Session info: chrome=98.0.4758.82)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[chrome not reachable
+  (Session info: chrome=98.0.4758.102)
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'DESKTOP-KV58UVC', ip: '169.254.123.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [db4f72c0138770ced1efc49a4b43c055, findElement {using=name, value=query}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Mihai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:5793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:5793/devtool..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: db4f72c0138770ced1efc49a4b43c055]]>
+Command: [67d00f9aa35abfde096a1c7434cbcd33, findElements {using=xpath, value=//button[contains(text(),'NO THANKS')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Mihai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:1260}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:1260/devtool..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 67d00f9aa35abfde096a1c7434cbcd33]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='query']"}
-  (Session info: chrome=98.0.4758.82)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=98.0.4758.102)
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'DESKTOP-KV58UVC', ip: '169.254.123.213', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [db4f72c0138770ced1efc49a4b43c055, findElement {using=name, value=query}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Mihai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:5793}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:5793/devtool..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: db4f72c0138770ced1efc49a4b43c055
+Command: [67d00f9aa35abfde096a1c7434cbcd33, findElements {using=xpath, value=//button[contains(text(),'NO THANKS')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.102, chrome: {chromedriverVersion: 97.0.4692.71 (adefa7837d02a..., userDataDir: C:\Users\Mihai\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:1260}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:1260/devtool..., se:cdpVersion: 98.0.4758.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 67d00f9aa35abfde096a1c7434cbcd33
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -128,24 +126,24 @@ at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.ja
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:382)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:374)
-at pageObjects.portalHomePage.getSearchBox(portalHomePage.java:28)
-at stepDefinition.stepDefinition.verify_that_user_is_successfully_logged_in(stepDefinition.java:62)
-at ✽.Verify that user is successfully logged in(file:///D:/Eclipse%20Selenium%20Udemy/E2EProject/src/test/java/features/login.feature:28)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)
+at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:397)
+at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:389)
+at pageObjects.LandingPage.getPopUpSize(LandingPage.java:52)
+at stepDefinition.stepDefinition.click_on_login_link_in_home_page_to_land_on_secure_sign_in_page(stepDefinition.java:36)
+at ✽.Click on Login link in home page to land on Secure sign in page(file:///D:/Eclipse%20Selenium%20Udemy/E2EProject/src/test/java/features/login.feature:26)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberOptions.TestRunner@73e9cf30]" started-at="2022-02-16T17:10:30 EET" name="tearDownClass" finished-at="2022-02-16T17:10:30 EET" duration-ms="26" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:CucumberOptions.TestRunner@1e097d59]" started-at="2022-02-21T16:45:27 EET" name="tearDownClass" finished-at="2022-02-21T16:45:27 EET" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- CucumberOptions.TestRunner -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Validate User Login -->
+  </suite> <!-- Suite -->
 </testng-results>

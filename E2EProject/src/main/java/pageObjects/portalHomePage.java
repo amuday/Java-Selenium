@@ -20,9 +20,6 @@ public class portalHomePage  {
 								// HomePage class
 	}
 
-	
-	
-	
 	public WebElement getSearchBox() {
 
 		return driver.findElement(searchBox);
