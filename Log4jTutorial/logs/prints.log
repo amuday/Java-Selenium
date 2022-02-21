@@ -1,0 +1,4 @@
+asd16:15:14.519 [main] DEBUG alpha.Demo - I am debugging
+16:15:14.521 [main] INFO  alpha.Demo - object is present
+16:15:14.521 [main] ERROR alpha.Demo - objest is not present
+16:15:14.521 [main] FATAL alpha.Demo - this is fatal

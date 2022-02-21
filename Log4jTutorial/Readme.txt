@@ -1,0 +1,1 @@
+A simple script to implement log4j and output logs. 
