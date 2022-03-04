@@ -1,4 +1,4 @@
-Basic knoledge of the following:
+Included in this repo are some basic scripts of the following:
 
 - Java OOP
 - Selenium Webdriver (Locators, Functional Testing, Automation, Syncronization, Child windows and IFrames)
